@@ -47,7 +47,7 @@ export default function ContentModal({ children, media_type, id }) {
     fetchData();
     fetchVideo();
     // eslint-disable-next-line
-  }, []);
+  }, [open]);
 
   return (
     <React.Fragment>
